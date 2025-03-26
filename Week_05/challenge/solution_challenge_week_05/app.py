@@ -21,7 +21,7 @@ def index():
     """
     
     # Load the CSV file (update the path if needed)
-    df = pd.read_csv('../apartments_data_enriched_cleaned.csv')
+    df = pd.read_csv('/workspaces/scientific_programming/Week_05/challenge/apartments_data_enriched_cleaned.csv')
 
     # Add ID column to the dataframe
     df['id'] = range(1, len(df) + 1)
